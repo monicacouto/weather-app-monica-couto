@@ -73,15 +73,6 @@ footer {
   line-height: 1.5;
   text-decoration: none;
 }
-.units {
-  color: grey;
-  position: relative;
-  top: -23px;
-  left: -50;
-}
-.units:hover {
-  text-decoration: underline;
-}
 .btn-secondary {
   background-color: rgb(53, 150, 189);
   border: none;
@@ -90,6 +81,7 @@ footer {
   background-color: rgb(53, 150, 189);
   opacity: 0.9;
   cursor: pointer;
+  border: none;
 }
 .btn-primary {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -119,8 +111,21 @@ footer {
   font-size: 65px;
   padding: 24px;
 }
-.local {
-  font-size: 50px;
-  font-weight: 500;
-  margin: 0 auto;
+.enterCity {
+  font-size: 48px;
+}
+.weather-temperature .units {
+  color: grey;
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+.weather-temperature .active {
+  color: grey;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  color: grey;
+  text-decoration: none;
 }
