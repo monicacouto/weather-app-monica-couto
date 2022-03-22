@@ -31,33 +31,32 @@
         <h1>Weather now...</h1>
         <form class="search-form" id="search-form">
           <div class="row">
-            <div class="col-6">
+            <div class="col-5">
           <input type="text" placeholder="Enter a City or Country..." autofocus="on" id="city-input" class="form-control" />
             </div>
-            <div class="col-3">
+            <div class="col-2">
           <input type="submit" value="Search" class="form-control btn btn-secondary" />
           </div>
-          <div class="col-3">
+          <div class="col-2">
           <input type="submit" value="Current" class="form-control btn btn-secondary" id="current-location-button" />
           </div>
         </form>
         </div>
       <div class="row">
-        <div class="col-6">
+        <div class="col-5">
           <ul class="clearfix weather-temperature">
-            <li><img src="file:///C:/Users/Lenovo/Downloads/undraw_world_re_768g%20(3).svg" width="130"/></li>
             <li  class="enter-city" id="city"></li>
-            <li> 
-              <span class="temperature" id="temperature"></span><span class="units">ºC</span>
-            </li>
+              <li> 
+                <span class="temperature" id="temperature"></span><span class="units">ºC</span>
+              </li>
             <li id="date"></li>
           </ul>
         </div>
-        <div class="col-6">
+        <div class="col-3">
+        <img src="" alt="Clear" width="130" id="icon" class="float-left" />
+         </div>
+        <div class="col-4">
           <ul>
-            <li>
-              <img src="" alt="Clear" width="140" id="icon" class="float-left" />
-            </li>
             <li id="description"></li>
             <li>Humidity: <span id="humidity"></span>%</li>
             <li>Wind: <span id="wind"></span> Km/h</li>
@@ -65,10 +64,9 @@
         </div>
         </div>
         <hr />
-                  <div class="weather-forecast" id="forecast">
-            
-          </div>
-                          </div>
+        <div class="weather-forecast" id="forecast">
+        </div>
+       </div>
         </div>
         <footer>
           <a
